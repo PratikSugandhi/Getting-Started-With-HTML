@@ -1,0 +1,89 @@
+Q.1 Write a simple program in html that display the heading "HTML defines the content and structure of your website" on the web browser?
+
+CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>solution 1</title>
+</head>
+<body>
+    <h1>HTML defines the content and structure of your website</h1>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.2 Explain the purpose of comments in HTML and provide an example of how to use  comments in an HTML document?
+
+ANS: Comments are use to ensure that content is not render in the web browser.Comments are useful when you want to write something about the code but you do not want to run that or show in the output.To create a comment we write the text between  <!--    -->.
+
+Example code is
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>solution 2</title>
+</head>
+<body>
+    <h1>My name is Pratik SUgandhi</h1>
+    <!--<h1>I am in second year</h1>-->
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.3 Write  an HTML program that include a heading a paragraph of text, a horizontal line and a line break.Arrange these elements to create a simple web page layout?
+code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>solution 3</title>
+</head>
+<body>
+    <h1 style="background-color: aqua; display: inline;">INTRODUCTION</h1>
+    <p><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatem esse laudantium adipisci eaque, laboriosam est illo delectus expedita cumque dignissimos asperiores ducimus quae corporis sit perferendis ipsa reprehenderit vitae obcaecati numquam dolore aperiam itaque atque deleniti. Sint sapiente voluptas quae beatae voluptates rem eveniet, accusamus architecto eos, eius enim!</h2></p>
+    <hr><br><h1 style="background-color: brown; display: inline;">CONTENT OF PAGE</h1>
+    <p><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos in labore provident quas aliquid quibusdam suscipit. Odio, quisquam? Distinctio culpa facere, praesentium alias aut reprehenderit.</h2></p>
+    <hr><br><h1 style="background-color: rgb(153, 165, 42); display: inline;">Conclusion</h1>
+    <p><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corporis, culpa tenetur similique error voluptatibus nobis enim dolor eaque, dolores, eveniet necessitatibus deserunt totam voluptates excepturi sequi! Beatae iste maxime unde eaque saepe esse quia.</h2></p>
+    <hr>
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.4 Write a short note on Tag and element with an example?
+Ans:HTML uses a system of "tags" to define the structure and layout of web pages. Tags are the building blocks ofHTML documents and consist of angle brackets enclosing specific keywords. These tags provide instructionsto web browsers on how to display the content.An HTML tag is composed of an opening tag and, in some cases, a closing tag. The opening tag starts withthe less-than symbol (<), followed by the tag name, and ends with a greater-than symbol (>). The closing
+tag is similar, but it also includes a forward slash (/) before the tag name.
+				For example:
+					Opening tag: <tagname>
+					Closing tag: </tagname>
+
+		HTML elements are the building blocks of an HTML document. HTML elements consist of a start tag, an endtag (if applicable), and content in between the tags. The start tag defines the beginning of an HTML element, and the end tag defines the end of an HTML element.Each HTML element has a specific structure that defines its behaviour and appearance on a web page.Here is a breakdown of the anatomy of an HTML element:
+1. Opening tag - This is the opening tag that defines the beginning of an HTML element. It is enclosed in
+angle brackets (< >) 
+2. Content - This is the text or other data that appears between the start and end tags of an HTML element. Some HTML elements do not require content and are self-closing
+3.  Closing tag - This is the closing tag that defines the end of an HTML element. It is enclosed in angle brackets with a forward slash (/) before the element name.
+
+				for example:
+				<h1>he is genius</h1>
+				opening tag : <h1>
+				content tag : he is genius
+				closing tag : </h1>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q.5 What is DOC TYPE declaration in HTML?
+ANS :
+All HTML documents must start with a <!DOCTYPE> declaration.
+
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
+
+In HTML 5, the declaration is simple:
+
+<!DOCTYPE html>
+Doctype HTML is a declaration that tells the browser what version of HTML the document is written in. This declaration appears as the very first line in an HTML file.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
